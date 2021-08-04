@@ -1,0 +1,45 @@
+body{
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://eurovent.eu/sites/default/files/styles/adaptive/public/media/GEN%20-%201098.00.png?itok=_2xC_WoJ");
+}
+.piebox{
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 400px;
+    width: 400px; */
+    /* margin-left: 400px; */
+}
+.barbox{
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /* top: 0; */
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+
+
+@media screen and (max-width: 470px) {
+    .navHead{
+        display: flex;
+        flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: rgb(165 0 0);
+      position: sticky;
+      color: white;
+      width: 400px;
+      top: 0;
+      z-index: 1;
+    }
+}
+/* option{background-color: red;} */
