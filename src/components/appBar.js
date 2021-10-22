@@ -53,7 +53,7 @@ export default function Nav({handleCountryChange}) {
         <Toolbar className={classes.root}>
         
           <Typography className={classes.title} variant="h6" noWrap>
-            Covid Tracker
+            Covid Tracker App
 
           </Typography>
           
